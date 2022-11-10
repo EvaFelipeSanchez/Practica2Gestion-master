@@ -1,5 +1,4 @@
 # Based on DNX gitattributes
-#DNX
 *.doc  diff=astextplain
 *.DOC	diff=astextplain
 *.docx	diff=astextplain
