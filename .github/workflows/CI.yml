@@ -2,7 +2,7 @@ name: CI con gradle
 
 on:
   push:
-    branches: [ master ] # se ejecutará cuando hagamos un push a esta rama
+    branches: [ master ] # se ejecutará cuando hagamos un push a esta ram
   workflow_dispatch: #y también podremos ejecutar el workflow manualmente desde github
 
 jobs:
