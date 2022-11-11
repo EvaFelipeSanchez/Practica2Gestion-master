@@ -11,8 +11,8 @@ services:
       restart_policy:
         condition: on-failure
     ports:
-      - "28017" : "28017"
-      - "27017" : "27017"
+      - "28017:28017"
+      - "27017:27017"
     volumes:
       - "db-data:/data/db"
   order:
@@ -41,10 +41,9 @@ services:
       restart_policy:
         condition: on-failure
     ports:
-      - "8080:8080"
+      - "80:8080"
       
 volumes:
    db-data:
-    
     
      
