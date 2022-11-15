@@ -29,6 +29,8 @@ jobs:
 
 
           ### BUILDS ###
+      - name: Add permissions
+        run: chmod 777 ./gradlew build
 
 
       - name: hacer build del backend
