@@ -30,7 +30,7 @@ jobs:
 
           ### BUILDS ###
       - name: Add permissions
-        run: chmod 777 /gradlew
+        run: chmod 777 gradle
 
       - name: hacer build del backend
         working-directory: ./src/Clients
