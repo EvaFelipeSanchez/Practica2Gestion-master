@@ -29,9 +29,6 @@ jobs:
 
 
           ### BUILDS ###
-      - name: Add permissions
-        working-directory: ./src/Clients
-        run: chmod 777 ./gradlew 
 
       - name: hacer build del backend
         working-directory: ./src/Clients
@@ -61,6 +58,3 @@ jobs:
         run: |
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/p2gps:order
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/p2gps:web
-
-      
-
